@@ -42,4 +42,11 @@ Below is an example of requirements in a booking management system like Booking.
        - _**Localization:** The system should support local currencies, languages, and date formats._
        - _**Reliability:** The system must recover gracefully from crashes or unexpected failures._
        - _**Data Backup & Recovery:** TThe system must perform daily backups and support data recovery within 1 hour._
+     
+   ## Use Case Diagrams
+   A Use Case Diagram is a visual representation in UML (Unified Modeling Language) that shows the interactions between users (actors) and a system. Use Case Diagram focus on **WHAT** the system does and not on **HOW** it does it. It show how different actors interact with the system to achieve specific goals (use cases).
+
+   The following is illustration of User Case Diagram for a booking management syste.
+
+
 
