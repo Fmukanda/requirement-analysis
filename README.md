@@ -46,7 +46,9 @@ Below is an example of requirements in a booking management system like Booking.
    ## Use Case Diagrams
    A Use Case Diagram is a visual representation in UML (Unified Modeling Language) that shows the interactions between users (actors) and a system. Use Case Diagram focus on **WHAT** the system does and not on **HOW** it does it. It show how different actors interact with the system to achieve specific goals (use cases).
 
-   The following is illustration of User Case Diagram for a booking management syste.
+   The following is an illustration of User Case Diagram for a booking management system.
+
+   ![image alt](https://github.com/Fmukanda/requirement-analysis/blob/31b2695b3e5049e9b0b78b1d93623383ec80235a/alx-booking-uc.png)
 
 
 
