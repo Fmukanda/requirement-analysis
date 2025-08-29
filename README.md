@@ -50,5 +50,33 @@ Below is an example of requirements in a booking management system like Booking.
 
    ![image alt](https://github.com/Fmukanda/requirement-analysis/blob/31b2695b3e5049e9b0b78b1d93623383ec80235a/alx-booking-uc.png)
 
+## Acceptance Criteria
+Acceptance Criteria are a set of predefined conditions or standards that a software feature must meet for it to be considered acceptable to the stakeholders. Acceptance criteria are importantant in the following ways:
+ - They provide clear, specific guidelines on what the feature should do,
+ - They ensure that both the development team and stakeholders are aligned on expectations.
+ - They help to define the scope of the feature by outlining what is in scope and what is out of scope, preventing ambiguity and scope creep
 
-
+The following is an example of an acceptance criteria for a Checkout feature in the booking management system
+  - _**User Authentication:**_
+      - _The guest must be logged in to proceed with checkout. If the guest is not logged in, they should be prompted to log in or create an account._
+  - _**Valid Payment Methods:**_ 
+      - _The checkout screen should display supported payment methods (e.g., credit card, PayPal, Apple Pay)._
+      - _The user should be able to select one of the listed payment methods and enter the necessary information._
+  - _**Payment Confirmation:**_
+      - _Upon successful payment, the guest should receive an on-screen confirmation message, "Your booking has been successfully confirmed!"._
+      - _A confirmation email should be sent to the guest’s registered email with booking details and payment confirmation._
+  - _**Invalid Payment Handling:**_ 
+      - _If the payment is declined (e.g., insufficient funds or network issue), the user should see a clear error message, such as "Payment could not be processed. Please check your details or try another method."_
+      - _The guest should be able to retry payment with different methods._
+  - _**Booking Summary:**_
+      - _The checkout page should display a summary of the booking (property details, dates, total cost, taxes, etc.) for the guest to review before proceeding._
+  - _**Security:**_
+      - _The payment process must use encrypted communication (SSL/TLS) to secure sensitive information like credit card details._
+      - _The system should comply with PCI-DSS standards for payment card security._
+  - _**Error Handling:**_
+      - _If there is a technical error during the payment processing (e.g., network failure), the user should see a message like "An error occurred. Please try again later."_
+      - _The user should be able to resume the payment attempt once the error is resolved._
+  - _**Booking Status Update:**_
+      - _After successful payment, the status of the booking should change from "Pending" to "Confirmed" in the guest’s profile and booking history._
+  - _**Time-out Handling:**_
+      - _If the guest does not complete the payment within a certain time (e.g., 15 minutes), the system should automatically cancel the booking and release the property for others to book._
